@@ -1,0 +1,21 @@
+.recommended-topics
+{   background-color: rgb(244, 245, 246);
+    height: 40px;
+    width: 1300px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    transform: translateZ(-10px); /* Apply the 3D effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+    position: relative; /* Set position to make adjustments */
+}
+.recommended{
+   
+   font-weight: bold;
+   margin-left: 20px;
+   margin-bottom: 10px;
+
+}

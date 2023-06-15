@@ -1,0 +1,58 @@
+.topic-string-keyword {
+    height: 60px;
+    width: 1255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border: 3px solid #ebe6e6;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transform: translateZ(-10px); /* Apply the 3D effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+    position: relative; /* Set position to make adjustments */
+    top: 1px; /* Move it slightly above the page */
+  }
+  .only-string
+  {
+    display: flex;
+    width: 1265px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .only-keyword {
+    width: 100%;
+    height: 2px;
+    padding-bottom: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .only-keyword > div {
+    margin-right: 20px;
+  }
+  .write-button
+  {
+    padding: 8px 20px;
+    background-color: rgb(255, 48, 16);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .keyword-button {
+    border: 2px solid rgb(220, 220, 48);
+    background-color: rgb(245, 245, 126);
+    color:rgb(220, 220, 48);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius:8px ;
+  }
+  
